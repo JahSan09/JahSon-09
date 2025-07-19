@@ -147,24 +147,44 @@ html
   <title>Mon premier site</title>
 </head>
 <body>
-  <h1>Bienvenue sur mon site !</h1>
-  <p>Ceci est ma première page web.</p>html
-<h2>Contactez-nous</h2>
-<form action="#" method="post">
+  
+
+<head>
+  <title>Test JavaScript</title>
+</head>
+<body>
+
+  <button onclick="alert('Salut, ça marche !')">Clique-moi</button>
+
+</body>
+</html>
+html
+<h2>Créer un compte</h2>
+<form action="traitement.php" method="post">
   <label for="nom">Nom :</label><br>
   <input type="text" id="nom" name="nom" required><br><br>
 
   <label for="email">Email :</label><br>
   <input type="email" id="email" name="email" required><br><br>
 
-  <label for="message">Message :</label><br>
-  <textarea id="message" name="message" rows="4" required></textarea><br><br>
+  <label for="motdepasse">Mot de passe :</label><br>
+  <input type="password" id="motdepasse" name="motdepasse" required><br><br>
 
-  <input type="submit" value="Envoyer">
-</form>html
-<button onclick="window.location.href='contact.html';">
-  Contact
-</button>
+  <input type="submit" value="Créer un compte">
+</form>
+
+html
+<form action="https://formspree.io/f/mkgzgjeo" method="POST">
+  <label>Nom : <input type="text" name="name" required></label><br>
+  <label>Email : <input type="email" name="email" required></label><br>
+  <label>Message : <textarea name="message" required></textarea></label><br>
+  <button type="submit">Envoyer</button>
+</form>
+
+
+
+
+
 
 
 
